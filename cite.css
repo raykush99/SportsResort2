@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #ededed;
+  background: repeating-linear-gradient(
+    45deg,
+    #ededed,
+    #949494 10px,
+    #e0e0e0 10px,
+    #e0e0e0 20px
+  );
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-shadow: 1px 1px 10px white;
+  text-decoration: underline;
+}
+
+.subjob {
+  text-align: center;
+  font-size: 25px;
+  background-color: #2D3142;
+  background-size: cover;
+  margin-left: -20px;
+  margin-right: -20px;
+  height: 50px;
+  line-height: 40px;
+  display: none;
+  justify-content: space-evenly;
+}
+
+.subjob.show {
+  display: flex;
+}
+
+.heading a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 2vw;
+  margin: 0px 2.5vw;
+  line-height:4vw;
+}
+
+.heading a:hover {
+  color: white;
+  text-shadow: 1px 1px 10px white;
+  text-decoration: underline;
+}
+
+.heading {
+  text-align: center;
+  background-color: #2D3142;
+  margin: -10px;
+  background-size: cover;
+  height: 4.5vw;
+  line-height: 50px;
+}
+.logo img{
+  width:15vw;
+  float:left;
+  margin-left: 2vw;
+  z-index: 1;
+ position:absolute; top: -.6vw;
+}
+
+
+
+
+p{
+  background-color: #4F5D75;
+  text-align: center;
+  margin: 0vw 10vw;
+  padding: 5vw 10vw;
+  font-size: 1.5vw;
+  color: #ededed;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+.cite{
+  color: #FFFFFF;
+  background-color: #4F5D75;
+  margin: 0vw -1vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+.photos{
+  grid-column: 1;
+}
+.info{
+  grid-column: 2;
+}
+.symbol{
+  grid-column: 3;
+}
+.website{
+  grid-column: 4;
+}
